@@ -4,10 +4,16 @@ const name = 'Mario';
 
 
 // Dichiara la funzione qui.
-
+/**
+ * Description placeholder
+ *
+ * @param {string} name
+ * @returns {string}
+ */
+const saluto = (name) =>`Ciao ${name}`
 
 // Invoca la funzione qui e stampa il risultato in console
-
+console.log(saluto(name));
 
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
